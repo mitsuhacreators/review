@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Folder Tabs</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Yomogi&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+<link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<input class="variation" id="solid" type="radio" value="1" name="border" checked="checked"/>
+<label for="solid"><span class="circle"></span><span>Tím Mộng Mơ</span></label>
+<input class="variation" id="shadow" type="radio" value="2" name="border"/>
+<label for="shadow"> <span class="circle"></span><span>Vàng Xinh Xẻo</span></label>
+<div class="folder">
+  <div class="tabs">
+    <button class="tab active" onclick="openTab(event, 'tab-1')">
+      <div><span>Netflix</span></div>
+    </button>
+    <button class="tab" onclick="openTab(event, 'tab-2')">
+      <div><span>4G Free</span></div>
+    </button>
+    <button class="tab" onclick="openTab(event, 'tab-3')">
+      <div><span>Vieon</span></div>
+    </button>
+    <button class="tab" onclick="openTab(event, 'tab-4')">
+      <div><span>Spotify</span></div>
+    </button>
+  </div>
+  <div class="content">
+    <div class="content__inner" id="tab-1">
+      <div class="page">
+        <p>Cách sử dụng netflix cookie đơn giản, bạn chỉ cần có một chiếc máy tình có trình duyệt và có thể down tiện ích! bạn hãy tại j2team trên shop tiện ích sau đó down cookie về vào trang chủ của netflix và mở tiện ích vừa cài chọn import, tìm nơi lưu trữ bạn vừa down tệp về và tải nó lên và thưởng thức </p>
+        <p>Vui lòng không đăng xuất cookie, thay đổi thông tin tài khoản, không bán cookie và đặc biệt phá cookie account, nếu chúng mình bắt được sẽ ban bạn khỏi website </p>
+      </div>
+    </div>
+    <div class="content__inner" id="tab-2">
+      <div class="page">
+        <p>Cách dùng 4G free rất đơn giản! bạn chỉ cần tải và sử dụng các phần mềm sau: V2rayNg,  NapsternetV, Shadownroket sau khi tải về các bạn sử dụng mã qr được share sẵn bawngd cách vô phần mềm chọn import config from qrcode sau khi import xong nhấn vào nó và khởi chạy!</p>
+        <p>Vui lòng có ý thức sử dụng, không tải nhiều tệp lamgx phí tài nguyên!. </p>
+      </div>
+    </div>
+    <div class="content__inner" id="tab-3">
+      <div class="page">
+        <p>Cách dùng vieon rất đơn giản, các bạn chỉ cần lên trình duyệt web hoặc tải app về điện thoại để đăng nhập tài khoản và thưởng thức!. </p>
+        <p>Vui lòng không đổi mật khẩu dưới mọi hình thức! thay đổi thông tin tài khoản, ý thức tý đi các bạn!.</p>
+      </div>
+    </div>
+    <div class="content__inner" id="tab-4">
+      <div class="page">
+        <p>Khi bạn vô trang spotify bạn sẽ thấy một đường link kèm địa chỉ ip vui lòng tạo tài khoản bằng vpn và địa chỉ ip được cung cấp sau đó copy và mở lời mời tham gia nhóm gia đình (spotify family) bạn chọn accept sau đó quay lại trang share link copy dòng địa chỉ và dán vào khi nhà mà spotify yêu cầu! thế là xong. </p>
+        <p>Không tạo nhiều acc clone để tham gia, không sử dụng tài khoản này để bán!.</p>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
